@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: A Statistically Sound 'data.frame' Processor/Conditioner</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> A Statistically Sound 'data.frame' Processor/Conditioner
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;vtreat&rsquo; version 1.6.3</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="apply_transform.html">apply_transform</a></td>
+<td>Transform second argument by first.</td></tr>
+<tr><td style="width: 25%;"><a href="as_rquery_plan.html">as_rquery_plan</a></td>
+<td>Convert vtreatment plans into a sequence of rquery operations.</td></tr>
+<tr><td style="width: 25%;"><a href="BinomialOutcomeTreatment.html">BinomialOutcomeTreatment</a></td>
+<td>Stateful object for designing and applying binomial outcome treatments.</td></tr>
+<tr><td style="width: 25%;"><a href="buildEvalSets.html">buildEvalSets</a></td>
+<td>Build set carve-up for out-of sample evaluation.</td></tr>
+<tr><td style="width: 25%;"><a href="center_scale.html">center_scale</a></td>
+<td>Center and scale a set of variables.</td></tr>
+<tr><td style="width: 25%;"><a href="classification_parameters.html">classification_parameters</a></td>
+<td>vtreat classification parameters.</td></tr>
+<tr><td style="width: 25%;"><a href="designTreatmentsC.html">designTreatmentsC</a></td>
+<td>Build all treatments for a data frame to predict a categorical outcome.</td></tr>
+<tr><td style="width: 25%;"><a href="designTreatmentsN.html">designTreatmentsN</a></td>
+<td>build all treatments for a data frame to predict a numeric outcome</td></tr>
+<tr><td style="width: 25%;"><a href="designTreatmentsZ.html">designTreatmentsZ</a></td>
+<td>Design variable treatments with no outcome variable.</td></tr>
+<tr><td style="width: 25%;"><a href="design_missingness_treatment.html">design_missingness_treatment</a></td>
+<td>Design a simple treatment plan to indicate missingingness and perform simple imputation.</td></tr>
+<tr><td style="width: 25%;"><a href="fit.html">fit</a></td>
+<td>Fit first arguemnt to data in second argument.</td></tr>
+<tr><td style="width: 25%;"><a href="fit_prepare.html">fit_prepare</a></td>
+<td>Fit and prepare in a cross-validated manner.</td></tr>
+<tr><td style="width: 25%;"><a href="fit_transform.html">fit_transform</a></td>
+<td>Fit and transform in a cross-validated manner.</td></tr>
+<tr><td style="width: 25%;"><a href="format.vtreatment.html">format.vtreatment</a></td>
+<td>Display treatment plan.</td></tr>
+<tr><td style="width: 25%;"><a href="getSplitPlanAppLabels.html">getSplitPlanAppLabels</a></td>
+<td>read application labels off a split plan.</td></tr>
+<tr><td style="width: 25%;"><a href="get_feature_names.html">get_feature_names</a></td>
+<td>Return feasible feature names.</td></tr>
+<tr><td style="width: 25%;"><a href="get_score_frame.html">get_score_frame</a></td>
+<td>Return score frame from vps.</td></tr>
+<tr><td style="width: 25%;"><a href="get_transform.html">get_transform</a></td>
+<td>Return underlying transform from vps.</td></tr>
+<tr><td style="width: 25%;"><a href="kWayCrossValidation.html">kWayCrossValidation</a></td>
+<td>k-fold cross validation, a splitFunction in the sense of vtreat::buildEvalSets</td></tr>
+<tr><td style="width: 25%;"><a href="kWayStratifiedY.html">kWayStratifiedY</a></td>
+<td>k-fold cross validation stratified on y, a splitFunction in the sense of vtreat::buildEvalSets</td></tr>
+<tr><td style="width: 25%;"><a href="kWayStratifiedYReplace.html">kWayStratifiedYReplace</a></td>
+<td>k-fold cross validation stratified with replacement on y, a splitFunction in the sense of vtreat::buildEvalSets .</td></tr>
+<tr><td style="width: 25%;"><a href="makeCustomCoderCat.html">makeCustomCoderCat</a></td>
+<td>Make a categorical input custom coder.</td></tr>
+<tr><td style="width: 25%;"><a href="makeCustomCoderNum.html">makeCustomCoderNum</a></td>
+<td>Make a numeric input custom coder.</td></tr>
+<tr><td style="width: 25%;"><a href="makekWayCrossValidationGroupedByColumn.html">makekWayCrossValidationGroupedByColumn</a></td>
+<td>Build a k-fold cross validation splitter, respecting (never splitting) groupingColumn.</td></tr>
+<tr><td style="width: 25%;"><a href="rquery_prepare.html">materialize_treated</a></td>
+<td>Materialize a treated data frame remotely.</td></tr>
+<tr><td style="width: 25%;"><a href="mkCrossFrameCExperiment.html">mkCrossFrameCExperiment</a></td>
+<td>Run categorical cross-frame experiment.</td></tr>
+<tr><td style="width: 25%;"><a href="mkCrossFrameMExperiment.html">mkCrossFrameMExperiment</a></td>
+<td>Function to build multi-outcome vtreat cross frame and treatment plan.</td></tr>
+<tr><td style="width: 25%;"><a href="mkCrossFrameNExperiment.html">mkCrossFrameNExperiment</a></td>
+<td>Run a numeric cross frame experiment.</td></tr>
+<tr><td style="width: 25%;"><a href="MultinomialOutcomeTreatment.html">MultinomialOutcomeTreatment</a></td>
+<td>Stateful object for designing and applying multinomial outcome treatments.</td></tr>
+<tr><td style="width: 25%;"><a href="multinomial_parameters.html">multinomial_parameters</a></td>
+<td>vtreat multinomial parameters.</td></tr>
+<tr><td style="width: 25%;"><a href="novel_value_summary.html">novel_value_summary</a></td>
+<td>Report new/novel appearances of character values.</td></tr>
+<tr><td style="width: 25%;"><a href="NumericOutcomeTreatment.html">NumericOutcomeTreatment</a></td>
+<td>Stateful object for designing and applying numeric outcome treatments.</td></tr>
+<tr><td style="width: 25%;"><a href="oneWayHoldout.html">oneWayHoldout</a></td>
+<td>One way holdout, a splitFunction in the sense of vtreat::buildEvalSets.</td></tr>
+<tr><td style="width: 25%;"><a href="patch_columns_into_frame.html">patch_columns_into_frame</a></td>
+<td>Patch columns into data.frame.</td></tr>
+<tr><td style="width: 25%;"><a href="ppCoderC.html">ppCoderC</a></td>
+<td>Solve a categorical partial pooling problem.</td></tr>
+<tr><td style="width: 25%;"><a href="ppCoderN.html">ppCoderN</a></td>
+<td>Solve a numeric partial pooling problem.</td></tr>
+<tr><td style="width: 25%;"><a href="prepare.html">prepare</a></td>
+<td>Apply treatments and restrict to useful variables.</td></tr>
+<tr><td style="width: 25%;"><a href="prepare.multinomial_plan.html">prepare.multinomial_plan</a></td>
+<td>Function to apply mkCrossFrameMExperiment treatemnts.</td></tr>
+<tr><td style="width: 25%;"><a href="prepare.simple_plan.html">prepare.simple_plan</a></td>
+<td>Prepare a simple treatment.</td></tr>
+<tr><td style="width: 25%;"><a href="prepare.treatmentplan.html">prepare.treatmentplan</a></td>
+<td>Apply treatments and restrict to useful variables.</td></tr>
+<tr><td style="width: 25%;"><a href="pre_comp_xval.html">pre_comp_xval</a></td>
+<td>Pre-computed cross-plan (so same split happens each time).</td></tr>
+<tr><td style="width: 25%;"><a href="print.multinomial_plan.html">print.multinomial_plan</a></td>
+<td>Print treatmentplan.</td></tr>
+<tr><td style="width: 25%;"><a href="print.simple_plan.html">print.simple_plan</a></td>
+<td>Print treatmentplan.</td></tr>
+<tr><td style="width: 25%;"><a href="print.treatmentplan.html">print.treatmentplan</a></td>
+<td>Print treatmentplan.</td></tr>
+<tr><td style="width: 25%;"><a href="print.vtreatment.html">print.vtreatment</a></td>
+<td>Print treatmentplan.</td></tr>
+<tr><td style="width: 25%;"><a href="problemAppPlan.html">problemAppPlan</a></td>
+<td>check if appPlan is a good carve-up of 1:nRows into nSplits groups</td></tr>
+<tr><td style="width: 25%;"><a href="regression_parameters.html">regression_parameters</a></td>
+<td>vtreat regression parameters.</td></tr>
+<tr><td style="width: 25%;"><a href="rquery_prepare.html">rquery_prepare</a></td>
+<td>Materialize a treated data frame remotely.</td></tr>
+<tr><td style="width: 25%;"><a href="solveIsotone.html">solveIsotone</a></td>
+<td>Solve for best single-direction (non-decreasing or non-increasing) fit.</td></tr>
+<tr><td style="width: 25%;"><a href="solveNonDecreasing.html">solveNonDecreasing</a></td>
+<td>Solve for best non-decreasing fit using isotone regression (from the "isotone" package &lt;URL: https://CRAN.R-project.org/package=isotone&gt;).</td></tr>
+<tr><td style="width: 25%;"><a href="solveNonIncreasing.html">solveNonIncreasing</a></td>
+<td>Solve for best non-increasing fit.</td></tr>
+<tr><td style="width: 25%;"><a href="solve_piecewise.html">solve_piecewise</a></td>
+<td>Solve as piecewise linear problem, numeric target.</td></tr>
+<tr><td style="width: 25%;"><a href="solve_piecewisec.html">solve_piecewisec</a></td>
+<td>Solve as piecewise logit problem, categorical target.</td></tr>
+<tr><td style="width: 25%;"><a href="spline_variable.html">spline_variable</a></td>
+<td>Spline variable numeric target.</td></tr>
+<tr><td style="width: 25%;"><a href="spline_variablec.html">spline_variablec</a></td>
+<td>Spline variable categorical target.</td></tr>
+<tr><td style="width: 25%;"><a href="square_window.html">square_window</a></td>
+<td>Build a square windows variable, numeric target.</td></tr>
+<tr><td style="width: 25%;"><a href="square_windowc.html">square_windowc</a></td>
+<td>Build a square windows variable, categorical target.</td></tr>
+<tr><td style="width: 25%;"><a href="track_values.html">track_values</a></td>
+<td>Track unique character values for variables.</td></tr>
+<tr><td style="width: 25%;"><a href="UnsupervisedTreatment.html">UnsupervisedTreatment</a></td>
+<td>Stateful object for designing and applying unsupervised treatments.</td></tr>
+<tr><td style="width: 25%;"><a href="unsupervised_parameters.html">unsupervised_parameters</a></td>
+<td>vtreat unsupervised parameters.</td></tr>
+<tr><td style="width: 25%;"><a href="value_variables_C.html">value_variables_C</a></td>
+<td>Value variables for prediction a categorical outcome.</td></tr>
+<tr><td style="width: 25%;"><a href="value_variables_N.html">value_variables_N</a></td>
+<td>Value variables for prediction a numeric outcome.</td></tr>
+<tr><td style="width: 25%;"><a href="variable_values.html">variable_values</a></td>
+<td>Return variable evaluations.</td></tr>
+<tr><td style="width: 25%;"><a href="vnames.html">vnames</a></td>
+<td>New treated variable names from a treatmentplan$treatment item.</td></tr>
+<tr><td style="width: 25%;"><a href="vorig.html">vorig</a></td>
+<td>Original variable name from a treatmentplan$treatment item.</td></tr>
+<tr><td style="width: 25%;"><a href="vtreat.html">vtreat</a></td>
+<td>vtreat: A Statistically Sound 'data.frame' Processor/Conditioner</td></tr>
+</table>
+</div></body></html>

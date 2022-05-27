@@ -1,0 +1,116 @@
+apply_transform         Transform second argument by first.
+as_rquery_plan          Convert vtreatment plans into a sequence of
+                        rquery operations.
+BinomialOutcomeTreatment
+                        Stateful object for designing and applying
+                        binomial outcome treatments.
+buildEvalSets           Build set carve-up for out-of sample
+                        evaluation.
+center_scale            Center and scale a set of variables.
+classification_parameters
+                        vtreat classification parameters.
+design_missingness_treatment
+                        Design a simple treatment plan to indicate
+                        missingingness and perform simple imputation.
+designTreatmentsC       Build all treatments for a data frame to
+                        predict a categorical outcome.
+designTreatmentsN       build all treatments for a data frame to
+                        predict a numeric outcome
+designTreatmentsZ       Design variable treatments with no outcome
+                        variable.
+fit                     Fit first arguemnt to data in second argument.
+fit_prepare             Fit and prepare in a cross-validated manner.
+fit_transform           Fit and transform in a cross-validated manner.
+format.vtreatment       Display treatment plan.
+get_feature_names       Return feasible feature names.
+get_score_frame         Return score frame from vps.
+get_transform           Return underlying transform from vps.
+getSplitPlanAppLabels   read application labels off a split plan.
+kWayCrossValidation     k-fold cross validation, a splitFunction in the
+                        sense of vtreat::buildEvalSets
+kWayStratifiedY         k-fold cross validation stratified on y, a
+                        splitFunction in the sense of
+                        vtreat::buildEvalSets
+kWayStratifiedYReplace
+                        k-fold cross validation stratified with
+                        replacement on y, a splitFunction in the sense
+                        of vtreat::buildEvalSets .
+makeCustomCoderCat      Make a categorical input custom coder.
+makeCustomCoderNum      Make a numeric input custom coder.
+makekWayCrossValidationGroupedByColumn
+                        Build a k-fold cross validation splitter,
+                        respecting (never splitting) groupingColumn.
+mkCrossFrameCExperiment
+                        Run categorical cross-frame experiment.
+mkCrossFrameMExperiment
+                        Function to build multi-outcome vtreat cross
+                        frame and treatment plan.
+mkCrossFrameNExperiment
+                        Run a numeric cross frame experiment.
+multinomial_parameters
+                        vtreat multinomial parameters.
+MultinomialOutcomeTreatment
+                        Stateful object for designing and applying
+                        multinomial outcome treatments.
+novel_value_summary     Report new/novel appearances of character
+                        values.
+NumericOutcomeTreatment
+                        Stateful object for designing and applying
+                        numeric outcome treatments.
+oneWayHoldout           One way holdout, a splitFunction in the sense
+                        of vtreat::buildEvalSets.
+patch_columns_into_frame
+                        Patch columns into data.frame.
+ppCoderC                Solve a categorical partial pooling problem.
+ppCoderN                Solve a numeric partial pooling problem.
+pre_comp_xval           Pre-computed cross-plan (so same split happens
+                        each time).
+prepare                 Apply treatments and restrict to useful
+                        variables.
+prepare.multinomial_plan
+                        Function to apply mkCrossFrameMExperiment
+                        treatemnts.
+prepare.simple_plan     Prepare a simple treatment.
+prepare.treatmentplan   Apply treatments and restrict to useful
+                        variables.
+print.multinomial_plan
+                        Print treatmentplan.
+print.simple_plan       Print treatmentplan.
+print.treatmentplan     Print treatmentplan.
+print.vtreatment        Print treatmentplan.
+problemAppPlan          check if appPlan is a good carve-up of 1:nRows
+                        into nSplits groups
+regression_parameters   vtreat regression parameters.
+rquery_prepare          Materialize a treated data frame remotely.
+solve_piecewise         Solve as piecewise linear problem, numeric
+                        target.
+solve_piecewisec        Solve as piecewise logit problem, categorical
+                        target.
+solveIsotone            Solve for best single-direction (non-decreasing
+                        or non-increasing) fit.
+solveNonDecreasing      Solve for best non-decreasing fit using isotone
+                        regression (from the "isotone" package <URL:
+                        https://CRAN.R-project.org/package=isotone>).
+solveNonIncreasing      Solve for best non-increasing fit.
+spline_variable         Spline variable numeric target.
+spline_variablec        Spline variable categorical target.
+square_window           Build a square windows variable, numeric
+                        target.
+square_windowc          Build a square windows variable, categorical
+                        target.
+track_values            Track unique character values for variables.
+unsupervised_parameters
+                        vtreat unsupervised parameters.
+UnsupervisedTreatment   Stateful object for designing and applying
+                        unsupervised treatments.
+value_variables_C       Value variables for prediction a categorical
+                        outcome.
+value_variables_N       Value variables for prediction a numeric
+                        outcome.
+variable_values         Return variable evaluations.
+vnames                  New treated variable names from a
+                        treatmentplan$treatment item.
+vorig                   Original variable name from a
+                        treatmentplan$treatment item.
+vtreat                  vtreat: A Statistically Sound 'data.frame'
+                        Processor/Conditioner

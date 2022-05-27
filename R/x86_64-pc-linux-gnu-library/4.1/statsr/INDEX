@@ -1,0 +1,29 @@
+ames                    Housing prices in Ames, Iowa
+ames_sampling_dist      Simulate Sampling Distribution
+arbuthnot               Male and female births in London
+atheism                 Atheism in the world data
+bandit_posterior        bandit posterior
+bandit_sim              Run the Bandit Simulation shiny app
+bayes_inference         Bayesian hypothesis tests and credible
+                        intervals
+BF_app                  Run the interactive Bayes Factor shiny app
+brfss                   Behavioral Risk Factor Surveillance System 2013
+                        (Subset)
+calc_streak             Calculate hitting streaks
+credible_interval_app   Credible Interval shiny app
+evals                   Teachers evaluations at the University of Texas
+                        at Austin
+inference               Hypothesis tests and confidence intervals
+kobe_basket             Kobe Bryant basketball performance
+mlb11                   Major League Baseball team data
+nc                      North Carolina births
+nycflights              Flights data
+plot_bandit_posterior   plot_bandit_posterior
+plot_ss                 plot_ss
+present                 Male and female births in the US
+rep_sample_n            Repeating Sampling from a Tibble
+statsr                  statsr: A companion package for Statistics with
+                        R
+tapwater                Total Trihalomethanes in Tapwater
+wage                    Wage data
+zinc                    Zinc Concentration in Water

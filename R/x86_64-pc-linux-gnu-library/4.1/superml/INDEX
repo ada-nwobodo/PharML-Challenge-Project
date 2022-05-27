@@ -1,0 +1,24 @@
+bm_25                   BM25 Matching
+cla_train               cla_train
+Counter                 Calculate count of values in a list or vector
+CountVectorizer         Count Vectorizer
+dot                     Dot product similarity in vectors
+dotmat                  Dot product similarity between a vector and
+                        matrix
+GridSearchCV            Grid Search CV
+kFoldMean               kFoldMean Calculator
+KMeansTrainer           K-Means Trainer
+KNNTrainer              K Nearest Neighbours Trainer
+LabelEncoder            Label Encoder
+LMTrainer               Linear Models Trainer
+NBTrainer               Naive Bayes Trainer
+normalise1d             normalise1d
+normalise2d             normalise2d
+RandomSearchCV          Random Search CV
+reg_train               reg_train
+RFTrainer               Random Forest Trainer
+smoothMean              smoothMean Calculator
+sort_index              sort_index
+TfIdfVectorizer         TfIDF(Term Frequency Inverse Document
+                        Frequency) Vectorizer
+XGBTrainer              Extreme Gradient Boosting Trainer
